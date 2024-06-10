@@ -28,7 +28,7 @@ while game_is_on:
     screen.update()
     ball.move()
 
-    if len(blockmanager.blocks) == 0:
+    if len(blockmanager.removed_blocks) == 78:
         scoreboard.game_clear()
         game_is_on = False
 
