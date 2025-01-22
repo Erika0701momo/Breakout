@@ -17,9 +17,20 @@ Pythonに標準で組み込まれているグラフィックライブラリで�
 約2日
 # インストールから使用まで
 - GitHubからインストールします。
-- エディタのターミナルで、 $ python(もしくはpython3) -m venv .venvとタイプし仮想環境を作ります。
+- エディタのターミナルで、 `$ python -m venv .venv`(もしくはpython3)とタイプし仮想環境を作ります。
 - 仮想環境をアクティベートします。
   - Linuxをお使いの場合
+    - `$ source .venv/bin/activate` または
+    - `$ . .venv/bin/activate`
+  - Windowsをお使いの場合
+    - `$ .venv\Scripts\Activate` または
+    - `$ .\.venv\Scripts\activate`
+- 最後に、ターミナルで `python main.py`(もしくはpython3)を実行するとゲームが立ち上がります。
+# 苦労したところ
+- Turtle graphicsではグラフィックをturtleとして扱うのですが、どうやら生成はできるものの消去できないようで、ボールに当たって消されたブロックの扱いに苦戦しました。
+- Turtle graphicsの公式ドキュメントが英語のため、解読に苦労しました。
+# 支援とリソース
+詰まってしまった時は、就労移行支援事業所のプログラミング講師の方に助言を求めました。
 
 
 
