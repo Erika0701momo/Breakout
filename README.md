@@ -5,8 +5,8 @@
 
 https://github.com/user-attachments/assets/117aca2d-2c42-440d-af2d-ddb201759675
 # 概要
-Udemyの動画講座「100 Days of Code: The Complete Python Pro Bootcamp」のポートフォリオ課題(ヒント・模範解答無し)で、ブロック崩しゲーム「Breakout」を作成いたしました。<br>
-Pythonに標準で組み込まれているグラフィックライブラリである「Turtle graphics」を使用し、実装しました。
+Udemyの動画講座「100 Days of Code: The Complete Python Pro Bootcamp」のポートフォリオ課題(ヒント・模範解答無し)のお題に従い、ブロック崩しゲーム「Breakout」を作成いたしました。<br>
+Pythonに標準で組み込まれているグラフィックライブラリである「Turtle graphics」を使用しました。
 # 使用技術
 - Python 3.12
 - Turtle graphics
