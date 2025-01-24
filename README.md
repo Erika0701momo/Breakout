@@ -13,10 +13,12 @@ Pythonに標準で組み込まれているグラフィックライブラリで�
 - Python 3.12
 # 開発期間
 約2日
-# インストールから使用まで
-- まず、こちらのURLよりPython 3.12系をダウンロードします。https://www.python.org/downloads/
-- 
-- 最後に、ターミナルで `python main.py`(もしくはpython3)を実行するとゲームが立ち上がります。
+# 実行方法
+- まず、こちらのURLよりPython 3.12系をダウンロードします。https://www.python.org/downloads/ <br>
+  ※「Add Python to PATH」にチェックを入れることで環境変数を自動設定します。
+- 次に、こちらのコマンドで任意のフォルダにリポジトリをクローンします。`git clone https://github.com/Erika0701momo/Breakout.git`
+- 次に、こちらのコマンドでプロジェクトフォルダに移動します。`cd Breakout`
+- 最後に、`python main.py`(もしくは`python3 main.py`)を実行するとゲームが立ち上がります。
 # 苦労したところ
 - Turtle graphicsではグラフィックをturtleとして扱うのですが、どうやら生成はできるものの消去できないようで、ボールに当たって消されたブロックの扱いに苦戦しました。
 - Turtle graphicsの公式ドキュメントが英語のため、解読に苦労しました。
